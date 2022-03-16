@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Source+Sans+Pro:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+:root {
+  font-size: 0.785rem;
+  font-family: "Lato", sans-serif;
+  --grey: #f3f4f6;
+}
+body {
+  background-color: #eaedf2;
+}
+div {
+  margin: 3em auto;
+  width: 50%;
+  font-size: 1.9rem;
+  background-color: #fff;
+  border-radius: 2.5rem;
+  padding-top: 1em;
+}
+form {
+  text-align: center;
+}
+select {
+  font-size: 1.5rem;
+  border-radius: 1.3rem;
+  padding: 0.6em;
+  min-width: 45%;
+  border-right: 16px solid transparent;
+  background-color: var(--grey);
+}
+select:first-of-type {
+  margin-right: 0.5em;
+}
+table {
+  margin: 0 auto;
+  font-size: 1.3rem;
+  width: 100%;
+  margin-top: 0.5em;
+  background-color: #f3f4f6;
+  /* Removes the cell spacing via CSS */
+  border-spacing: 0;
+  /* Optional - if you don't want to have 
+  double border where cells touch */
+  border-collapse: collapse;
+}
+tr:first-of-type td {
+  background-color: #fff;
+  color: #c5c8ca;
+}
+td {
+  padding: 0.5em 0 0.6em;
+  color: #000;
+  font-weight: 900;
+}
+span {
+  display: block;
+  width: 100%;
+  background-color: var(--grey);
+  border-bottom-left-radius: 2.5rem;
+  border-bottom-right-radius: 2.5rem;
+}
+button {
+  min-width: 45%;
+  font-size: 1.2rem;
+  border-radius: 1.3rem;
+  background-color: #1853ff;
+  color: #fff;
+  padding: 0.9em 0.6em;
+  margin: 1.3em 0.2em 1em;
+}
+button:first-of-type {
+  background-color: rgb(224, 224, 224);
+  color: #000;
+}

@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;700&family=Source+Sans+Pro:wght@300;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+:root {
+  font-size: 0.785rem;
+  --light-grey: #a0a0a0;
+  --pink:#ff99a8;
+}
+body {
+  background-color: #f9f9f9;
+}
+.light-mode {
+  width: 40%;
+  margin: 3em auto;
+  padding: 2em 1em;
+  font-family: "Lato", sans-serif;
+  font-size: 1.5rem;
+  color: var(--light-grey);
+  background-color: #fff;
+  box-shadow: 0 0 0.8rem 0.1rem rgba(0, 0, 0, 0.2);
+}
+h1 {
+  font-size: 2.5rem;
+  color: #000;
+  /* font-weight: 700; */
+}
+h2 {
+  font-size: 1.5rem;
+  margin-top: 0.7em;
+  margin-bottom: 1em;
+}
+hr {
+  border-top: 1px solid var(--light-grey);
+}
+.today {
+  background-color: var(--pink);
+  margin: 1em 0 1.2em;
+  padding: 1em;
+  color: #fff;
+  box-shadow: 0 0 1.8rem 0.1rem rgba(0, 0, 0, 0.2);
+}
+.today span:first-of-type {
+  font-size: 1.2rem;
+  display: block;
+  margin-bottom: 1em;
+}
+.today time {
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+.date {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.icon {
+  font-family: "Source Sans Pro", sans-serif;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  background: linear-gradient(var(--light-grey) 0 0),
+    linear-gradient(var(--light-grey) 0 0), #fff;
+  background-position: center;
+  background-size: 35% 3px, 3px 35%;
+  background-repeat: no-repeat;
+}
+h3 {
+  font-size: 1rem;
+  margin-bottom: 1em;
+}
+ul {
+  list-style-position: inside;
+}
+li {
+  list-style-type: disc;
+  font-size: 2rem;
+  margin-bottom: 1em;
+}
+li time {
+  font-size: 1.5rem;
+  width: 80%;
+  display: inline-block;
+  margin-left: -15px;
+  color: #000;
+}
+li span {
+    display: block;
+  font-size: 1rem;
+  margin-top: -3px;
+  margin-left: 22px;
+  color: var(--light-grey);
+}
+.pink {
+    color: var(--pink);
+}
